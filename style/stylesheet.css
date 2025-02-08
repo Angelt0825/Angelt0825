@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3FFE1;
+    color:  #4A4A4A;
+}
+ body{
+    background-color: #F3FFE1;
+ }
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bg-body-tertiary {
+    background-color: #F3FFE1!important;
+}
+
+.nav-item{
+    font-size: 25px;
+    color: black;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ubicacion{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: "Pacifico", serif;
+}
+
+.subtitulo{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    width: 100%;
+    font-family: "Pacifico", serif;
+}
+
+.parrafo2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.parrafo3{
+    font-size: 30px;
+}
+#victoria{
+    margin-bottom: 20px;
+}
+h1{
+    font-family: "Pacifico", serif;
+}
+
+.card{
+    box-shadow: 10px 6px 5px -3px rgba(0,0,0,0.76);
+    border-radius: 30px;
+}
+
+.card-img-top{
+    border-radius: 30px;
+}
+
+.fa{
+    font-size: 30px;
+}
+
+#menu{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 60px;
+    font-family: "Pacifico", serif
+}
+
+#cita{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 60px;
+    font-family: "Pacifico", serif
+}
+
+.container-custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.nav-item:hover{
+    color: #007bff;
+    transition: 0.4s;
+}
+
+.nav-link.active:hover{
+    color: #007bff;
+    transition: 0.4s;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+
+
+  .ratio iframe {
+    border: none;
+  }
+
+
+  .hover-effect {
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+
+  .hover-effect:hover {
+    color: #007bff !important; 
+    transform: scale(1.2);
+  }
+
+.fa{
+    padding: 0 15px;
+}
